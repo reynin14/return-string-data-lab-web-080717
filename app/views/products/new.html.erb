@@ -1,1 +1,14 @@
-
+<h1>New Form</h1>
+<% form_for @product do |f| %>
+<%= f.lable :name %>
+<%= f.text_field :name %>
+<br>
+<%= f.lable :price %>
+<%= f.text_field :price %>
+<br>
+<%= f.lable :inventory %>
+<%= f.text_field :inventory %>
+<br>
+<%= f.lable :description %>
+<%= f.text_field :description %>
+<% end %>
